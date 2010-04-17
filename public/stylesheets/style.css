@@ -1,3 +1,60 @@
 body {
     background-color: #0dc3e4;
 }
+
+#container {
+    text-align: center;
+}
+
+#platitude_bubble {
+    width: 469px;
+    height: 203px;
+    background-image:url('/images/swami_01.png');   
+}
+
+#platitude_text {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    font-size: 150%;
+    text-align: center;
+}
+
+#swami {
+    width: 469px;
+    height: 284px;
+}
+
+#complaint {
+    width: 469px;
+    height: 250px;
+    text-align: center;
+}
+
+#complaint textarea {
+	background-image: url('/images/swami_08.png'); 
+	background-attachment: scroll;
+	width: 343px;
+	height: 73px ;
+	border: none;
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+#complaint .bemoan {
+    border: none;
+    background: url('/images/swami_05.png') no-repeat top left;
+    width: 66px;
+    height: 26px;
+}
+
+#complaint .random {
+    border: none;
+    background: url('/images/swami_11.png') no-repeat top left;
+    width: 66px;
+    height: 26px;
+}
+    
+

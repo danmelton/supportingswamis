@@ -1,4 +1,6 @@
 class PlatitudesController < ApplicationController
+  
+  layout "application"
   # GET /platitudes
   # GET /platitudes.xml
   def index

@@ -2,8 +2,6 @@ class CreatePlatitudes < ActiveRecord::Migration
   def self.up
     create_table :platitudes do |t|
       t.string :platitude
-      t.integer :user_id
-      t.integer :personality_id
       t.timestamps
     end
   end

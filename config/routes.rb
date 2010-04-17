@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :personalities
+  map.resources :complaints
 
   map.resources :platitudes
 

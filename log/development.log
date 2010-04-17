@@ -87,3 +87,906 @@ Processing SupportController#index (for 127.0.0.1 at 2010-04-16 23:06:29) [GET]
 Rendering template within layouts/support
 Rendering support/index
 Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 10:50:48) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:36:10) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:36:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:36:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:36:40) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:36:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:36:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:37:04) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:37:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:37:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:37:19) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 30ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:37:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:37:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:37:41) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:37:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:37:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:38:07) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:38:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:38:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:38:15) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 17ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:38:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:38:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 11:39:15) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:39:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 11:39:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:27:23) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 362ms (View: 257, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:27:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:28:14) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 32ms (View: 30, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:28:14) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:28:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:28:34) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:28:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePlatitudes (20100417033946)
+Migrating to CreatePersonalities (20100417035258)
+Migrating to CreateComplaints (20100417172951)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE TABLE "complaints" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (10.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100417172951')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("complaints")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("personalities")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("platitudes")[0m
+
+
+Processing ComplaintsController#index (for 127.0.0.1 at 2010-04-17 12:30:26) [GET]
+  [4;36;1mComplaint Load (0.4ms)[0m   [0;1mSELECT * FROM "complaints" [0m
+Rendering template within layouts/complaints
+Rendering complaints/index
+Completed in 836ms (View: 810, DB: 0) | 200 OK [http://localhost/complaints]
+
+
+Processing ComplaintsController#new (for 127.0.0.1 at 2010-04-17 12:30:33) [GET]
+Rendering template within layouts/complaints
+Rendering complaints/new
+Completed in 405ms (View: 223, DB: 0) | 200 OK [http://localhost/complaints/new]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:32:06) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:32:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#index (for 127.0.0.1 at 2010-04-17 12:32:09) [GET]
+  [4;35;1mComplaint Load (0.5ms)[0m   [0mSELECT * FROM "complaints" [0m
+Rendering template within layouts/application
+Rendering complaints/index
+Completed in 39ms (View: 33, DB: 1) | 200 OK [http://localhost/complaints]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:32:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:32:30) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:32:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:32:48) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 168ms (View: 165, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:32:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:33:18) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:33:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:33:38) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:33:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:34:30) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:34:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:34:46) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:34:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:37:50) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 120ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:37:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:38:11) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:38:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:38:29) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 12:38:42) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 12:38:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:18:51) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 13:18:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 13:19:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/swami_01.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:19:23) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:19:36) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:20:24) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:21:27) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:21:36) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:21:59) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:22:05) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:22:12) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:22:42) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:24) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:31) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:46) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:48) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:52) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:54) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:23:57) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:24:07) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:24:14) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:24:32) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:24:43) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:25:11) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:25:16) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:25:20) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:26:26) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:26:53) [GET]
+Rendering template within layouts/support
+Rendering support/index
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/complaints/_form.html.erb:
+1: <% form_for(@complaint) do |f| %>
+2:     <%= f.text_area :description %>
+3:     <%= f.submit 'Create' %>
+4: <% end %>
+
+    app/views/complaints/_form.html.erb:1
+    app/views/support/index.html.erb:12
+
+Rendered rescues/_trace (47.3ms)
+Rendered rescues/_request_and_response (13.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:27:11) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.5ms)
+Completed in 48ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:29:31) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.8ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:30:16) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (67.1ms)
+Completed in 73ms (View: 69, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:31:13) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.4ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:31:45) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.6ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:32:10) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.6ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:32:24) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.7ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:32:36) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.5ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:32:46) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.5ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:32:58) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.6ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ComplaintsController#create (for 127.0.0.1 at 2010-04-17 13:33:13) [POST]
+  Parameters: {"commit"=>"Create", "complaint"=>{"description"=>"Oh swami please help me with this problem I currently have."}, "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;36;1mComplaint Create (18.4ms)[0m   [0;1mINSERT INTO "complaints" ("created_at", "updated_at", "description") VALUES('2010-04-17 18:33:13', '2010-04-17 18:33:13', 'Oh swami please help me with this problem I currently have.')[0m
+Redirected to http://localhost:3000/complaints/1
+Completed in 40ms (DB: 18) | 302 Found [http://localhost/complaints]
+
+
+Processing ComplaintsController#show (for 127.0.0.1 at 2010-04-17 13:33:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mComplaint Load (0.2ms)[0m   [0mSELECT * FROM "complaints" WHERE ("complaints"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering complaints/show
+Completed in 36ms (View: 18, DB: 0) | 200 OK [http://localhost/complaints/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 13:33:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#edit (for 127.0.0.1 at 2010-04-17 13:33:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" WHERE ("complaints"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering complaints/edit
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/complaints/1/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 13:33:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#index (for 127.0.0.1 at 2010-04-17 13:33:21) [GET]
+  [4;35;1mComplaint Load (0.4ms)[0m   [0mSELECT * FROM "complaints" [0m
+Rendering template within layouts/application
+Rendering complaints/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/complaints]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 13:33:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/scaffold.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:35:07) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.5ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:35:23) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.1ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:35:32) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.0ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:35:39) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.4ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:36:03) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.7ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:36:57) [GET]
+Rendering template within layouts/support
+Rendering support/index
+
+ActionView::TemplateError (undefined local variable or method `f' for #<ActionView::Base:0x1041374c8>) on line #6 of app/views/complaints/_form.html.erb:
+3:     <%= f.submit '', :class => "bemoan" %>
+4: 
+5: <% end %>
+6:     <%= f.submit '', :class => "random" %>    
+
+    app/views/complaints/_form.html.erb:6
+    app/views/support/index.html.erb:12
+
+Rendered rescues/_trace (43.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:37:03) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.6ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:37:19) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.6ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:37:36) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.8ms)
+Completed in 77ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:37:45) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.2ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:38:07) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.7ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:38:36) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.0ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:40:12) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (2.6ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 13:43:58) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (61.6ms)
+Completed in 71ms (View: 67, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComplaints (20100417172951)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "complaints"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100417172951'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("personalities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("platitudes")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("personalities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("platitudes")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("personalities")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("platitudes")[0m
