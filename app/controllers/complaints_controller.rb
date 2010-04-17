@@ -39,6 +39,14 @@ class ComplaintsController < ApplicationController
   def edit
     @complaint = Complaint.find(params[:id])
   end
+  
+  def random
+    @complaint = Complaint.random
+    @platitude = Platitude.random
+    respond_to do |format|
+      format.js
+    end    
+  end
 
   # POST /complaints
   # POST /complaints.xml

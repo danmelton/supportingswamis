@@ -1,0 +1,2 @@
+page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+page.replace_html :description, "<textarea rows=\"20\" name=\"complaint[description]\" id=\"complaint_description\" cols=\"40\">#{@complaint.description}</textarea>"

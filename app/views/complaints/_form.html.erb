@@ -1,5 +1,5 @@
 <% form_remote_for(@complaint) do |f| %>
-    <p><%= f.text_area :description %></p>
+    <div id="description"><%= f.text_area :description %></div>
     <%= f.submit '', :class => "bemoan" %>    
 <% end %>
 

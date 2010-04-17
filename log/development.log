@@ -2573,3 +2573,693 @@ Rendering complaints/create
   [4;36;1mPlatitude Load (1.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
 Rendered platitudes/_platitude (66.2ms)
 Completed in 76ms (View: 66, DB: 2) | 200 OK [http://localhost/complaints]
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:42:27) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+
+ActionController::UnknownAction (No action responded to random. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:42:30) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.8ms)
+Rendered complaints/_random (1.9ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:42:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:42:31) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+
+ActionController::UnknownAction (No action responded to random. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:49:49) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.7ms)
+Rendered complaints/_random (1.9ms)
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:49:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:49:54) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 24[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:50:14) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.1ms)
+Rendered complaints/_random (2.0ms)
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:50:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:50:17) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 13[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.5ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+ERROR: compiling _run_rjs_app47views47complaints47random46rjs RAISED compile error
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...tude_text, "<textarea rows="20" name="complaint[description]...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...area rows="20" name="complaint[description]" id="complaint_d...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tSTRING_BEG, expecting kEND
+... name="complaint[description]" id="complaint_description" co...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...on]" id="complaint_description" cols="40">#{@complaint.descr...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...omplaint_description" cols="40">#{@complaint.description}</t...
+                              ^
+Function body:           def _run_rjs_app47views47complaints47random46rjs(local_assigns)
+            old_output_buffer = output_buffer;;@template_format = :html;controller.response.content_type ||= Mime::JS;update_page do |page|;page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+page.update_html :platitude_text, "<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">#{@complaint.description}</textarea>"
+end
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:6:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/danielmelton/Documents/development/railsapps/swamis/app/controllers/complaints_controller.rb:46:in `random'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...tude_text, "<textarea rows="20" name="complaint[description]...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...area rows="20" name="complaint[description]" id="complaint_d...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tSTRING_BEG, expecting kEND
+... name="complaint[description]" id="complaint_description" co...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...on]" id="complaint_description" cols="40">#{@complaint.descr...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...omplaint_description" cols="40">#{@complaint.description}</t...
+                              ^) on line #2 of app/views/complaints/random.rjs:
+1: page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+2: page.update_html :platitude_text, "<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">#{@complaint.description}</textarea>"
+
+    app/views/complaints/random.rjs:6:in `compile!'
+    app/controllers/complaints_controller.rb:46:in `random'
+
+Rendered rescues/_trace (106.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:51:08) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.2ms)
+Rendered complaints/_random (2.2ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:51:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:51:11) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.5ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+ERROR: compiling _run_rjs_app47views47complaints47random46rjs RAISED compile error
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...tude_text, "<textarea rows="20" name="complaint[description]...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...area rows="20" name="complaint[description]" id="complaint_d...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tSTRING_BEG, expecting kEND
+... name="complaint[description]" id="complaint_description" co...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...on]" id="complaint_description" cols="40">#{@complaint.descr...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...omplaint_description" cols="40">#{@complaint.description}</t...
+                              ^
+Function body:           def _run_rjs_app47views47complaints47random46rjs(local_assigns)
+            old_output_buffer = output_buffer;;@template_format = :html;controller.response.content_type ||= Mime::JS;update_page do |page|;page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+page.update_html :platitude_text, "<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">#{@complaint.description}</textarea>"
+end
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:6:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/danielmelton/Documents/development/railsapps/swamis/app/controllers/complaints_controller.rb:46:in `random'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...tude_text, "<textarea rows="20" name="complaint[description]...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...area rows="20" name="complaint[description]" id="complaint_d...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tSTRING_BEG, expecting kEND
+... name="complaint[description]" id="complaint_description" co...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...on]" id="complaint_description" cols="40">#{@complaint.descr...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tINTEGER, expecting kEND
+...omplaint_description" cols="40">#{@complaint.description}</t...
+                              ^) on line #2 of app/views/complaints/random.rjs:
+1: page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+2: page.update_html :platitude_text, "<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">#{@complaint.description}</textarea>"
+
+    app/views/complaints/random.rjs:6:in `compile!'
+    app/controllers/complaints_controller.rb:46:in `random'
+
+Rendered rescues/_trace (117.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:52:21) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.0ms)
+Rendered complaints/_random (1.8ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:52:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:52:23) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 4[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+ERROR: compiling _run_rjs_app47views47complaints47random46rjs RAISED compile error
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...atitude_text, ''<textarea rows="20" name="complaint[descript...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...xt, ''<textarea rows="20" name="complaint[description]" id="...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...me="complaint[description]" id="complaint_description" cols=...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...d="complaint_description" cols="40">'  + @complaint.descript...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: unterminated string meets end of file
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR
+Function body:           def _run_rjs_app47views47complaints47random46rjs(local_assigns)
+            old_output_buffer = output_buffer;;@template_format = :html;controller.response.content_type ||= Mime::JS;update_page do |page|;page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+page.update_html :platitude_text, ''<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">'  + @complaint.description + '</textarea>'
+end
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/danielmelton/Documents/development/railsapps/swamis/app/controllers/complaints_controller.rb:46:in `random'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...atitude_text, ''<textarea rows="20" name="complaint[descript...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...xt, ''<textarea rows="20" name="complaint[description]" id="...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...me="complaint[description]" id="complaint_description" cols=...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...d="complaint_description" cols="40">'  + @complaint.descript...
+                              ^
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: unterminated string meets end of file
+/Users/danielmelton/Documents/development/railsapps/swamis/app/views/complaints/random.rjs:2: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR) on line #2 of app/views/complaints/random.rjs:
+1: page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+2: page.update_html :platitude_text, ''<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">'  + @complaint.description + '</textarea>'
+
+    app/views/complaints/random.rjs:2:in `compile!'
+    app/controllers/complaints_controller.rb:46:in `random'
+
+Rendered rescues/_trace (112.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:52:45) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 3[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (2.1ms)
+Completed in 22ms (View: 11, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:52:57) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 2[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (1.5ms)
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:53:34) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (5.1ms)
+Rendered complaints/_random (1.8ms)
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:53:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:53:38) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 11[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (64.9ms)
+Completed in 79ms (View: 71, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:53:58) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 16[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (1.5ms)
+Completed in 14ms (View: 6, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:54:33) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (3.9ms)
+Rendered complaints/_random (2.1ms)
+Completed in 21ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:54:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:54:55) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 22[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (1.5ms)
+
+ActionView::TemplateError (can't convert nil into String) on line #2 of app/views/complaints/random.rjs:
+1: page.replace_html :platitude_text, :partial => 'platitudes/platitude'
+2: page.replace_html :description, '<textarea rows="20" name="complaint[description]" id="complaint_description" cols="40">'  + @complaint.description + '</textarea>'
+
+    app/views/complaints/random.rjs:2:in `_run_rjs_app47views47complaints47random46rjs'
+    app/views/complaints/random.rjs:1:in `_run_rjs_app47views47complaints47random46rjs'
+    app/controllers/complaints_controller.rb:46:in `random'
+
+Rendered rescues/_trace (110.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:55:06) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 5[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (1.5ms)
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing SupportController#index (for 127.0.0.1 at 2010-04-17 16:56:21) [GET]
+Rendering template within layouts/support
+Rendering support/index
+Rendered complaints/_form (5.9ms)
+Rendered complaints/_random (2.3ms)
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 16:56:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Herculanum.ttf" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:56:23) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 19[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (1.6ms)
+Completed in 81ms (View: 73, DB: 1) | 200 OK [http://localhost/complaints/random]
+
+
+Processing ComplaintsController#random (for 127.0.0.1 at 2010-04-17 16:56:40) [POST]
+  Parameters: {"commit"=>"", "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "complaints" [0m
+  [4;36;1mComplaint Load (0.2ms)[0m   [0;1mSELECT * FROM "complaints" LIMIT 1 OFFSET 6[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (0.2ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendering complaints/random
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (1.5ms)
+Completed in 18ms (View: 7, DB: 1) | 200 OK [http://localhost/complaints/random]

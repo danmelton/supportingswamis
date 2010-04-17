@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :complaints
+  map.resources :complaints, :collection => { :random => :post }
 
   map.resources :platitudes
 
