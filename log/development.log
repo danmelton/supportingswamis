@@ -2563,3 +2563,13 @@ ActionController::RoutingError (No route matches "/stylesheets/stylesheets/Hercu
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing ComplaintsController#create (for 127.0.0.1 at 2010-04-17 16:17:27) [POST]
+  Parameters: {"commit"=>"", "complaint"=>{"description"=>"Our logo is awful, our graphic designers, help us swami"}, "authenticity_token"=>"hjN6HiD2ZNOwZHVeJzdQfFNH3L04rU6AVAzahuQc3dw="}
+  [4;36;1mComplaint Create (0.3ms)[0m   [0;1mINSERT INTO "complaints" ("created_at", "updated_at", "description") VALUES('2010-04-17 21:17:27', '2010-04-17 21:17:27', 'Our logo is awful, our graphic designers, help us swami')[0m
+Rendering complaints/create
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "platitudes" [0m
+  [4;36;1mPlatitude Load (1.0ms)[0m   [0;1mSELECT * FROM "platitudes" LIMIT 1 OFFSET 0[0m
+Rendered platitudes/_platitude (66.2ms)
+Completed in 76ms (View: 66, DB: 2) | 200 OK [http://localhost/complaints]
