@@ -47,7 +47,7 @@ class ComplaintsController < ApplicationController
 
     respond_to do |format|
       if @complaint.save
-        flash[:notice] = 'Complaint was successfully created.'
+        format.js
         format.html { redirect_to(@complaint) }
         format.xml  { render :xml => @complaint, :status => :created, :location => @complaint }
       else

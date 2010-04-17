@@ -1,9 +1,17 @@
+@font-face {
+  font-family:"Herculanum";
+  src: url(stylesheets/Herculanum.ttf) format("truetype");
+}
+
 body {
     background-color: #0dc3e4;
+    margin: 0;
+    padding: 0;
 }
 
 #container {
-    text-align: center;
+    width: 469px;
+    margin: 0 auto;
 }
 
 #platitude_bubble {
@@ -13,11 +21,16 @@ body {
 }
 
 #platitude_text {
+    font-family: "Herculanum";
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 15px;
     font-size: 150%;
     text-align: center;
+}
+
+#platitude_text h1{
+    font-size: 120%;
 }
 
 #swami {
@@ -27,14 +40,13 @@ body {
 
 #complaint {
     width: 469px;
-    height: 250px;
     text-align: center;
 }
 
 #complaint textarea {
 	background-image: url('/images/swami_08.png'); 
 	background-attachment: scroll;
-	width: 343px;
+	width: 469px;
 	height: 73px ;
 	border: none;
 	background-repeat: no-repeat;
@@ -57,4 +69,14 @@ body {
     height: 26px;
 }
     
+input[type='submit'] {
+    float: left;
+}
+
+#about_swami {
+    margin-top: 50px;
+    width: 469px;
+    text-align: center;
+    clear: both;
+}
 

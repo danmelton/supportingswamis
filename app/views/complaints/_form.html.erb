@@ -1,5 +1,6 @@
-<% form_for(@complaint) do |f| %>
+<% form_remote_for(@complaint) do |f| %>
     <p><%= f.text_area :description %></p>
-    <%= f.submit '', :class => "bemoan" %>
-    <%= f.submit '', :class => "random" %>    
+    <%= f.submit '', :class => "bemoan" %>    
 <% end %>
+
+
