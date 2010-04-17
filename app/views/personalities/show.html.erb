@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @personality.name %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%=h @personality.image %>
+</p>
+
+
+<%= link_to 'Edit', edit_personality_path(@personality) %> |
+<%= link_to 'Back', personalities_path %>

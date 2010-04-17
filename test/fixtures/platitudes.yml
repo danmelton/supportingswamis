@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  platitude: MyString
+  user_id: 1
+
+two:
+  platitude: MyString
+  user_id: 1
